@@ -87,28 +87,28 @@
       let idMessage = message.payloadString[0];
       let valor = parseInt(message.payloadString.substring(3));
       if (idMessage=="A"){
-        if(valor<5){
+        if(valor<9){
           document.getElementById("s1").className = "stop";
         }else{
           document.getElementById("s1").className = "go";
         }
       }
       if (idMessage=="B"){
-        if(valor<5){
+        if(valor<9){
           document.getElementById("s2").className = "stop";
         }else{
           document.getElementById("s2").className = "go";
         }
       }
       if (idMessage=="C"){
-        if(valor<5){
+        if(valor<9){
           document.getElementById("s3").className = "stop";
         }else{
           document.getElementById("s3").className = "go";
         }
       }
       if (idMessage=="D"){
-        if(valor<5){
+        if(valor<9){
           document.getElementById("s4").className = "stop";
         }else{
           document.getElementById("s4").className = "go";
